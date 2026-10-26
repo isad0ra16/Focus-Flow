@@ -13,8 +13,8 @@
 Um app de foco que combina Pomodoro, tarefas, música e cenários animados em pixel art, com a atmosfera acolhedora dos cozy games.
 
 ![Versão](https://img.shields.io/badge/versão-1.0.0-9B86B3?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-teste_fechado-C5A575?style=for-the-badge)
-![Categoria](https://img.shields.io/badge/projeto-acadêmico-729482?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-em_teste-C5A575?style=for-the-badge)
+![Programa](https://img.shields.io/badge/desenvolvido_no-Potenc.IA-729482?style=for-the-badge)
 
 ![React](https://img.shields.io/badge/React-18-75648C?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-75648C?style=flat-square&logo=typescript&logoColor=white)
@@ -22,17 +22,21 @@ Um app de foco que combina Pomodoro, tarefas, música e cenários animados em pi
 ![Supabase](https://img.shields.io/badge/Supabase-Auth_·_Postgres_·_Edge_Functions-729482?style=flat-square&logo=supabase&logoColor=white)
 ![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-C5A575?style=flat-square&logo=cloudflare&logoColor=white)
 
-<sub>🧪 Versão 1.0.0 em teste fechado · ainda não aberta ao público</sub>
+[![Abrir o FocusFlow](https://img.shields.io/badge/▶_Abrir_o_FocusFlow-9B86B3?style=for-the-badge)](https://focusflow-teste.pages.dev/)
+
+<sub>🧪 Versão 1.0.0 em teste · protótipo aberto para visitação</sub>
 
 <sub>🎧 Atmosfera lo-fi · 🌱 Pequenas conquistas · ☕ Foco e descanso</sub>
 
 </div>
 
+> **🔒 Código-fonte privado.** Este repositório documenta o produto, a arquitetura, as decisões técnicas e os testes do FocusFlow. O código não é público para evitar cópias do projeto. Acesso ao código disponível para recrutadores e avaliadores técnicos mediante solicitação: veja [Contato](#-contato).
+
 ---
 
 ## 🍃 Sobre o projeto
 
-O **FocusFlow** é um projeto acadêmico de aplicação web para organizar momentos de concentração e descanso. A proposta é transformar sessões de estudo ou trabalho em uma experiência visual acolhedora: enquanto o cronômetro roda, você escolhe um cenário, organiza as tarefas, ouve música e vê o seu **Jardim do Flow** crescer a cada ciclo de foco concluído.
+O **FocusFlow** é uma aplicação web para organizar momentos de concentração e descanso, desenvolvida durante o **Potenc.IA**, programa de inteligência artificial aplicada da MCIO Brasil em parceria com a United Way Brasil e a Johnson Controls. A proposta é transformar sessões de estudo ou trabalho em uma experiência visual acolhedora: enquanto o cronômetro roda, você escolhe um cenário, organiza as tarefas, ouve música e vê o seu **Jardim do Flow** crescer a cada ciclo de foco concluído.
 
 A ideia nasceu da vontade de estudar com mais estrutura e tornar o início de uma sessão mais convidativo. O projeto valoriza pequenos avanços, pausas e uma experiência inspirada em **cozy games, pixel art e lo-fi**, com um visual noturno e roxo que funciona no computador e no celular.
 
@@ -41,17 +45,17 @@ O FocusFlow começou como protótipo no Lovable, virou um protótipo interativo 
 ## 🖼️ O FocusFlow hoje
 
 <div align="center">
-  <img src="assets/focusflow-foco-tarefa.png" width="720" alt="Timer FocusFlow durante um ciclo de foco: Foco, Ciclo 1 de 4, focando na tarefa Coletar dados, 15:00 restantes, com sugestões e a lista de tarefas ao lado." />
-  <br />
-  <sub>Ciclo de foco ligado a uma tarefa, com sugestões e a lista de tarefas ao lado.</sub>
+<img src="assets/focusflow-foco-tarefa.png" width="720" alt="Timer FocusFlow durante um ciclo de foco: Foco, Ciclo 1 de 4, focando na tarefa Coletar dados, 15:00 restantes, com sugestões e a lista de tarefas ao lado." />
+<br />
+<sub>Ciclo de foco ligado a uma tarefa, com sugestões e a lista de tarefas ao lado.</sub>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="assets/focusflow-celular.png" width="280" alt="FocusFlow no celular: timer em 14:59 sobre o cenário Café na chuva, com navegação inferior entre Início, Cantinho, Ambientes e Histórico." />
-  <br />
-  <sub>A mesma experiência no celular.</sub>
+<img src="assets/focusflow-celular.png" width="280" alt="FocusFlow no celular: timer em 14:59 sobre o cenário Café na chuva, com navegação inferior entre Início, Cantinho, Ambientes e Histórico." />
+<br />
+<sub>A mesma experiência no celular.</sub>
 </div>
 
 ## 🎯 O problema
@@ -95,9 +99,9 @@ As tarefas têm prioridade, categoria, prazo e estimativa em ciclos ou minutos, 
 ### 🎧 Música dentro do app
 
 <div align="center">
-  <img src="assets/focusflow-musica.png" width="720" alt="Área de música do FocusFlow: campo para colar link do Spotify, Minhas Playlists e Sugestões para você com estilos como Lo-fi hip hop, Chill beats, Música clássica, Natureza e pássaros e Piano para estudar." />
-  <br />
-  <sub>Minhas Playlists e sugestões por estilo, com playlists e vídeos oficiais do Spotify e do YouTube.</sub>
+<img src="assets/focusflow-musica.png" width="720" alt="Área de música do FocusFlow: campo para colar link do Spotify, Minhas Playlists e Sugestões para você com estilos como Lo-fi hip hop, Chill beats, Música clássica, Natureza e pássaros e Piano para estudar." />
+<br />
+<sub>Minhas Playlists e sugestões por estilo, com playlists e vídeos oficiais do Spotify e do YouTube.</sub>
 </div>
 
 <br />
@@ -109,9 +113,9 @@ Por segurança, o player roda **isolado em outro endereço**: os scripts do YouT
 ### 🌱 Jardim do Flow
 
 <div align="center">
-  <img src="assets/focusflow-jardim-do-flow.png" width="720" alt="Tela Meu Cantinho no estágio Broto: cena em pixel art de uma casinha iluminada com jardim florido, ponte de madeira e lago com lanternas, e o aviso de que faltam 20 ciclos para a próxima evolução." />
-  <br />
-  <sub>O Jardim do Flow no estágio Broto, na tela Meu Cantinho.</sub>
+<img src="assets/focusflow-jardim-do-flow.png" width="720" alt="Tela Meu Cantinho no estágio Broto: cena em pixel art de uma casinha iluminada com jardim florido, ponte de madeira e lago com lanternas, e o aviso de que faltam 20 ciclos para a próxima evolução." />
+<br />
+<sub>O Jardim do Flow no estágio Broto, na tela Meu Cantinho.</sub>
 </div>
 
 <br />
@@ -152,7 +156,7 @@ Os dados ficam no Supabase, protegidos por **Row Level Security** (cada conta s�
 
 Cuidados de segurança e privacidade: Content Security Policy rígida, nenhuma chave secreta no código do app (o build para se encontrar uma), player isolado, regras de banco testadas com duas contas e dependências sem falhas conhecidas na última verificação.
 
-O desenvolvimento foi feito em parceria com o **Claude**, em etapas pequenas e numeradas: pedido, proposta, aprovação, implementação, testes e relatório, sempre com backup e um caminho de volta.
+O desenvolvimento foi feito com **Claude Code, agentes e skills**, em etapas pequenas e numeradas: pedido, proposta, aprovação, implementação, testes e relatório, sempre com backup e um caminho de volta. As decisões de produto, de escopo e de segurança foram minhas, e cada entrega era revisada antes de seguir para a próxima.
 
 ## 🧪 O que já foi testado de verdade (e o que não)
 
@@ -175,30 +179,17 @@ Sendo transparente sobre o estágio da 1.0.0:
 
 As suítes automatizadas passam, mas várias usam Google, Gmail e Supabase simulados. A regra do projeto é não chamar nada de pronto só porque passou em teste simulado.
 
-## 🚀 Rodando localmente
+## 📂 Código-fonte e documentação técnica
 
-Requisitos: Node.js 20.19 ou mais recente.
+O código-fonte do FocusFlow fica em um repositório privado. Neste repositório público estão:
 
-```bash
-npm install
-npm run dev        # ambiente de desenvolvimento
-npm test           # testes unitários (Vitest)
-npm run lint
-npm run build      # checa os tipos e gera dist/ (app) e dist-player/ (player isolado)
-```
-
-Para as contas e o player isolado, copie `.env.example` para `.env.local` (ou `.env.production` no build de publicação) e preencha:
-
-| Variável | O que é |
+| Documento | Conteúdo |
 | --- | --- |
-| `VITE_SUPABASE_URL` | Endereço do seu projeto Supabase. |
-| `VITE_SUPABASE_ANON_KEY` | Chave **pública** (anon/publishable) do Supabase. Nunca use a `service_role`. |
-| `VITE_PLAYER_ORIGIN` | Endereço do site do player isolado. |
-| `VITE_APP_ORIGIN` | Endereço(s) do app que podem usar o player, separados por vírgula. |
+| [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) | Como o app, o player isolado e o Supabase se conectam. |
+| [`docs/DECISOES.md`](docs/DECISOES.md) | As principais decisões técnicas e de produto, com contexto, opções e escolha. |
+| [`assets/`](assets/) | Capturas reais do app. |
 
-Sem as variáveis do Supabase, o app funciona só com os dados salvos no navegador. Sem `VITE_PLAYER_ORIGIN`, a música usa o player oficial simples, sem os controles do FocusFlow.
-
-As migrações do banco ficam em `supabase/migrations/`, e os testes de navegador em `e2e/`.
+Para avaliar o código, entre em contato pelo e-mail abaixo ou pelo [LinkedIn](https://www.linkedin.com/in/isadora-veiga/).
 
 ## 🗺️ Próximos passos
 
@@ -223,13 +214,14 @@ As migrações do banco ficam em `supabase/migrations/`, e os testes de navegado
 
 ## 💌 Contato
 
-Dúvidas, sugestões ou problemas: **focus.flow.atendimento@gmail.com**
+Dúvidas, sugestões, problemas ou pedidos de acesso ao código: **focus.flow.atendimento@gmail.com**
 
 ## 💜 Autoria
 
-Projeto desenvolvido por **Isadora**, estudante de Ciência da Computação, com interesse em dados, tecnologia e experiências digitais úteis e acolhedoras.
+Projeto desenvolvido por **Isadora Veiga**, estudante de Ciência da Computação, com interesse em dados, inteligência artificial aplicada e experiências digitais úteis e acolhedoras.
 
 [![GitHub](https://img.shields.io/badge/GitHub-isad0ra16-75648C?style=flat-square&logo=github&logoColor=white)](https://github.com/isad0ra16)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-isadora--veiga-75648C?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isadora-veiga/)
 
 ---
 
@@ -243,9 +235,7 @@ Projeto desenvolvido por **Isadora**, estudante de Ciência da Computação, com
 
 <!--
 README da versão 1.0.0 (outubro de 2026).
-Envie README.md e a pasta assets juntos para a raiz do repositório.
+Envie README.md, a pasta assets e a pasta docs juntos para a raiz do repositório.
 As imagens em assets/ são capturas reais do app (versões 0.20.1 e 0.21.0 e dos testes dos cenários em vídeo).
-O link público fica de fora até o FocusFlow ser aberto ao público. Quando for, adicione um badge ou botão "Abrir o FocusFlow".
 Atualize a seção "O que já foi testado de verdade" quando o Google Agenda e os e-mails forem confirmados.
-Adicione a licença do projeto quando estiver definida.
 -->
